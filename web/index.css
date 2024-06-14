@@ -1,0 +1,4 @@
+body { margin: 0; font-family: Verdana, Geneva, Tahoma, sans-serif; }
+button { margin: 4px; }
+
+.graph-page { position: fixed; width: 100%; height: 100%;}

@@ -1,0 +1,16 @@
+{
+  "name": "react-graph-sample",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "watch": "tsc --watch",
+    "serve": "serve web"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "serve": "^14.2.3",
+    "typescript": "^5.4.5"
+  }
+}

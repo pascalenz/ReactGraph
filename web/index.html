@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>React Graph</title>
+      
+        <link rel="stylesheet" href="../index.css" type="text/css">
+        <link rel="stylesheet" href="../graph.css" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="root">
+            <div style="width: 100%; height: 100%; text-align: center; padding-top: 100px;">
+                Loading application...
+            </div>
+        </div>
+
+        <script type="importmap">
+            {
+                "imports": {
+                    "d3": "https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm",
+                    "react": "https://cdn.jsdelivr.net/npm/react@18.3.0/+esm",
+                    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@18.3.0/+esm",
+                    "react-dom/client": "https://cdn.jsdelivr.net/npm/react-dom@18.3.0/client/+esm"
+                }
+            }
+        </script>
+
+        <script type="module" src="./scripts/App.js"></script>
+    </body>
+</html>

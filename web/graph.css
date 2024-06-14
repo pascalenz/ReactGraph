@@ -1,0 +1,42 @@
+.graph-presenter { position: fixed; width: 100%; height: 100%; overflow: hidden; background-color: #f5f7fa; cursor: move; }
+
+.node .outline { cursor: pointer; fill: #a5abb6; pointer-events: all; stroke: #a5abb6; stroke-width: 1px; }
+.node .outline.fixed { fill: #80858f; }
+.node .text { fill: #000000; }
+.node .ring { cursor: pointer; opacity: 0; stroke: black; stroke-width: 8px; }
+
+.node .action { cursor: pointer; fill: none; stroke: #cbd0dd; stroke-width: 12px; }
+.node .action.disabled { stroke: #e3e6ed; cursor: default; }
+.node .action:not(.disabled):hover { stroke: #9fa6bc; }
+.node .action-icon { fill: #8a94ad; }
+.node .action-icon.disabled { opacity: .3; }
+
+.node.fill-info .outline { fill: #c7ebff; stroke: #96d9ff; }
+.node.fill-info .outline.fixed { fill: #96d9ff; stroke: #60c6ff; }
+.node.fill-success .outline { fill: #d9fbd0; stroke: #bee8b4; }
+.node.fill-success .outline.fixed { fill: #bee8b4; stroke: #90d67f; }
+.node.fill-warning .outline { fill: #ffefca; stroke: #ffe6ad; }
+.node.fill-warning .outline.fixed { fill: #ffe6ad; stroke: #ffcc85; }
+.node.fill-danger .outline { fill: #ffe0db; stroke: #fabcb3; }
+.node.fill-danger .outline.fixed { fill: #fabcb3; stroke: #f48270; }
+
+.link { cursor: default; }
+.link line { stroke: #aaa; }
+.link text { cursor: default; fill: #aaa; font-size: 6px; }
+.link .outline { cursor: default; fill: #a5abb6; stroke: none; }
+.link .overlay { cursor: default; fill: #6ac6ff; opacity: 0; }
+.link:hover .overlay { cursor: pointer; opacity: .3; }
+
+.link.info .text { fill: #60c6ff; }
+.link.info .overlay { fill: #96d9ff; }
+.link.success .text { fill: #90d67f; }
+.link.success .overlay { fill: #bee8b4; }
+.link.warning .text { fill: #ffcc85; }
+.link.warning .overlay { fill: #ffe6ad; }
+.link.danger .text { fill: #f48270; }
+.link.danger .overlay { fill: #fabcb3; }
+
+.zoom-button-background { fill: #ffffff; stroke-width: 1; stroke: #e3e6ed; }
+.zoom-button-foreground { fill: #ffffff; opacity: 0.1; cursor: pointer; }
+.zoom-button-foreground:hover { fill: #e3e6ed; opacity: 0.3; cursor: pointer; }
+.zoom-button-text { fill: #000000; }
